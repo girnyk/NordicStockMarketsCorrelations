@@ -1,0 +1,31 @@
+\begin{table}
+    \centering
+    \caption{Summary performance and risk statistics for the portfolio strategies under consideration.}
+    \label{tab:summary_performance}
+    \footnotesize
+    \begin{tabular}{lrrrrr}
+        \hline
+     \textbf{Portfolio}  & \textbf{Mean (ann.), \%} & \textbf{Vol (ann.), \%} & \textbf{Sharpe} & \textbf{Sortino} & \textbf{Treynor, \%}\\
+        \hline
+    \textbf{OMXS30} & & & & & \\
+Equal-weight & \textbf{3.242} & 9.416 & 0.344 & 0.491 & 3.633 \\
+1st eigenportfolio & 3.029 & 9.511 & 0.318 & 0.454 & 3.413 \\
+Min-variance & 2.590 & \textbf{7.424} & 0.349 & 0.486 & 4.376 \\
+Regime-aware & 2.666 & 7.496 & \textbf{0.356} & \textbf{0.498} & \textbf{4.535} \\
+        \hline
+    \textbf{OMXC20} & & & & & \\
+Equal-weight & 3.394 & 8.763 & 0.387 & 0.538 & 3.723 \\
+1st eigenportfolio & 3.188 & 8.725 & 0.365 & 0.500 & 3.589 \\
+Min-variance & 3.768 & \textbf{7.153} & 0.527 & 0.791 & 5.771 \\
+Regime-aware & \textbf{4.435} & 7.418 & \textbf{0.598} & \textbf{0.933} & \textbf{6.679} \\
+        \hline
+    \textbf{OMXH25} & & & & & \\
+Equal-weight & 2.121 & 9.538 & 0.222 & 0.328 & 2.553 \\
+1st eigenportfolio & \textbf{2.369} & 9.353 & \textbf{0.253} & \textbf{0.373} & \textbf{2.845} \\
+Min-variance & 0.745 & \textbf{7.374} & 0.101 & 0.149 & 1.599 \\
+Regime-aware & 1.355 & 7.962 & 0.170 & 0.250 & 2.448 \\
+        \hline
+    \end{tabular}
+
+    Note: Best-performing schemes per metric are highlighted in bold font.
+\end{table}
