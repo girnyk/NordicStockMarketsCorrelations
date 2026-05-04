@@ -1,5 +1,5 @@
 # Correlation Structures and Regime Shifts in Nordic Stock Markets
-This repository contains the codes for producing the figures from the following paper:
+This repository contains data and codes for producing the figures from the following paper:
 M. A. Girnyk, "Correlation Structures and Regime Shifts in Nordic Stock Markets," Applied Mathematical Finance, 2026.
 
 # Abstract
